@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="891e4218-5513-41d8-91bf-ad4a2b498ee0" name="Default Changelist" comment="Calc test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/air/AirplaneTest.java" afterDir="false" />
+    <list default="true" id="891e4218-5513-41d8-91bf-ad4a2b498ee0" name="Default Changelist" comment="Airplane Test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/DataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/db/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/db/DataBaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/air/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/air/Airplane.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/calc/OperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/calc/OperationsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +54,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="db" />
       <recent name="air" />
       <recent name="calc" />
     </key>
@@ -60,7 +62,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AirplaneTest">
+  <component name="RunManager" selected="JUnit.DataBaseTest.check">
     <configuration name="Airport" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="air.Airport" />
       <module name="TestsTraining" />
@@ -100,6 +102,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DataBaseTest.check" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestsTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="db" />
+      <option name="MAIN_CLASS_NAME" value="db.DataBaseTest" />
+      <option name="METHOD_NAME" value="check" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OperationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestsTraining" />
       <extension name="coverage">
@@ -133,10 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DataBaseTest.check" />
+        <item itemvalue="JUnit.OperationsTest.sum" />
         <item itemvalue="JUnit.AirplaneTest" />
         <item itemvalue="Application.Airport" />
         <item itemvalue="JUnit.OperationsTest" />
-        <item itemvalue="JUnit.OperationsTest.sum" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +167,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605342350466</updated>
-      <workItem from="1605342351572" duration="3541000" />
+      <workItem from="1605342351572" duration="8133000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1605342545413</created>
@@ -164,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605344884942</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Airplane Test">
+      <created>1605346070211</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605346070211</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,45 +199,46 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Calc test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calc test" />
+    <MESSAGE value="Airplane Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Airplane Test" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1605345537891">
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1605349308213">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1605345537891" />
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1605349308213" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605345640128">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1605345640128" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1605345374373">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1605350417084">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605345374373" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1605345374373">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605350417084" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1605350417083">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605345374373" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1605345374373">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605350417083" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1605350417083">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605345374373" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1605345374373">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605350417083" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1605350417084">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605345374373" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605350417084" />
     <state x="277" y="0" key="SettingsEditor" timestamp="1605344395171">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605344395171" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605344891533">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605346076192">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605344891533" />
-    <state x="540" y="234" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1605345683043">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605346076192" />
+    <state x="540" y="234" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1605349250303">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="540" y="234" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1605345683043" />
+    <state x="540" y="234" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1605349250303" />
     <state x="570" y="318" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605342381812">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

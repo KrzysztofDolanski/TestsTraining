@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
 class OperationsTest {
@@ -22,6 +23,8 @@ class OperationsTest {
     @Test
     void sum() {
         assertEquals(6,operations.sum(2,4));
+        assertThat(operations.sum(2, 8)).isEqualTo(10);
+
     }
 
     @Test
