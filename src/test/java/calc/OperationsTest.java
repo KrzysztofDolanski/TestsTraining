@@ -8,8 +8,12 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class OperationsTest {
 
-    Operations operations = new Operations();
+    Operations operations;
 
+    @BeforeEach
+            public void init(){
+        operations = new Operations();
+    }
 
     double x = 2;
     double y = 4;
@@ -17,8 +21,7 @@ class OperationsTest {
 
     @Test
     void sum() {
-        double summary = operations.sum(2, 4);
-        Assert.assertTrue(6==summary);
+        assertEquals(6,operations.sum(2,4));
     }
 
     @Test
