@@ -1,22 +1,29 @@
 package db;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.stream.Stream;
 
 public class DataBase {
 
-    private List<User> userDataBase = new ArrayList<>();
 
+    private List<User> userDataBase = new LinkedList<>();
 
-    public User addNewUser(String login, String password) {
-        User user = new User(login, password);
-
-        for (int i = 0; i < userDataBase.size(); i++) {
-            if (!(userDataBase.get(i).getLogin() == user.getLogin())) {
-                return user;
-            }
-        } return null;
+    public DataBase(List<User> userDataBase) {
+        this.userDataBase = userDataBase;
     }
+
+    public void addUser(User user){
+        if (user.getLogin()!=null && user.getPassword()!=null){
+            boolean b = userDataBase.stream().noneMatch(user1 -> user1.getLogin().equals(user.getLogin()));
+            if (b){
+                userDataBase.add(user);
+            }
+        }else System.out.println("Invalid database");
+
+    }
+
 
     public List<User> getUserDataBase() {
         return userDataBase;
@@ -42,4 +49,6 @@ public class DataBase {
         }
         return userDataBase;
     }
+
+
 }
