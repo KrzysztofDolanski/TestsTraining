@@ -1,5 +1,8 @@
 package calc;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class Operations {
 
     private double x;
@@ -16,6 +19,13 @@ public class Operations {
 
     public double multiplication(double x, double y){
         return x*y;
+    }
+
+
+
+    public double root(double x){
+            double sqrt = Math.sqrt(x);
+        return sqrt;
     }
 
     public double division (double x, double y){
@@ -37,4 +47,9 @@ public class Operations {
     public void setY(double y) {
         this.y = y;
     }
+
+    public void sumArray(double [] array){
+        Arrays.stream(array).sum();
+    }
+
 }
